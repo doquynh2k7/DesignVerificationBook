@@ -12,4 +12,10 @@ Kỹ Thuật Thiết Kế
     :glob:
 
     GioiThieu
+    BatDongBo
+    DuongOng
+    ChiaSeTaiNguyen 
+    SuDungRam 
+    TocDoCao    
     *
+    

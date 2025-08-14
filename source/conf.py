@@ -32,6 +32,7 @@ copyright = f'2025-{datetime.datetime.now().year}, {author}'
 # ones.
 extensions = [
     "sphinxcontrib.rsvgconverter",
+    "sphinxcontrib.wavedrom",
 ]
 
 # Add any paths that contain templates here, relative to this directory.

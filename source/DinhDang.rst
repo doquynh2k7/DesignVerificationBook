@@ -90,7 +90,7 @@ There must be a space between the link text and the opening < for the URL.
 
 This is a paragraph that contains `a link`_.
 
-.. _a link: https://domain.invalid/
+.. _a link: http://sphinx-doc.org
 
 
 Tables
@@ -200,6 +200,7 @@ If you place a label directly before a section title, you can reference to it wi
     This is the text of the section.
     It refers to the section itself, see :ref:`my-reference-label`.
 
+Xem thêm ở :ref:`DinhDang`.
 
 Field Column List
 ===========================
@@ -266,3 +267,18 @@ You can indent text after a comment start to form multiline comments::
         Still in the comment.
 
 
+Waveform
+===========================
+
+**Waveform ví dụ**
+
+.. wavedrom::
+
+   { "signal": [
+     {"name":"clk", "wave":"p.....|..."},
+     {"name":"req", "wave":"01.0..|1.0"},
+     {"name":"ack", "wave":"0..1..|.0."}
+   ]}
+
+
+``.. wavedrom-json:: path/to/your_wave.json``
