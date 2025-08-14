@@ -12,7 +12,7 @@ High-level overview
 ===================
 
 .. _fig_overview_block:
-.. figure:: /diagrams/svg/corundum_block.svg
+.. figure:: https://upload.wikimedia.org/wikipedia/commons/3/3a/Tree_Example.png
 
     Block diagram of the Corundum NIC. PCIe HIP: PCIe hard IP core; AXIL M: AXI lite master; DMA IF: DMA interface; AXI M: AXI master; PHC: PTP hardware clock; TXQ: transmit queue manager; TXCQ: transmit completion queue manager; RXQ: receive queue manager; RXCQ: receive completion queue manager; EQ: event queue manager; MAC + PHY: Ethernet media access controller (MAC) and physical interface layer (PHY).
 

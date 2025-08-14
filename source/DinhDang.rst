@@ -215,8 +215,8 @@ Màu của khung::
 Image (Hình ảnh)
 ===========================
 
-.. image:: images/gnu.png
-.. figure:: images/gnu.*
+.. image:: images/https://upload.wikimedia.org/wikipedia/commons/2/22/Heckert_GNU_white.svg
+.. figure:: images/https://upload.wikimedia.org/wikipedia/commons/2/22/Heckert_GNU_white.*
 
 
 Footnotes
