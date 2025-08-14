@@ -1,18 +1,17 @@
-.. _ChuongMuc_GioiThieu:
+.. _KyThuatSoCoBan_GioiThieu:
 
 ==========
 Giới Thiệu
 ==========
 
-Corundum has several unique architectural features.  First, hardware queue states are stored efficiently in FPGA block RAM, enabling support for thousands of individually-controllable queues.  These queues are associated with interfaces, and each interface can have multiple ports, each with its own independent transmit scheduler.  This enables extremely fine-grained control over packet transmission.  The scheduler module is designed to be modified or swapped out completely to implement different transmit scheduling schemes, including experimental schedulers.  Coupled with PTP time synchronization, this enables time-based scheduling, including high precision TDMA.
+Giới thiệu cho kỹ thuật số cơ bản
 
-The design of Corundum is  modular and highly parametrized.  Many configuration and structural options can be set at synthesis time by Verilog parameters, including interface and port counts, queue counts, memory sizes, etc.  These design parameters are exposed in configuration registers that the driver reads to determine the NIC configuration, enabling the same driver to support many different boards and configurations without modification.
 
-High-level overview
-===================
+Qui trình cho một thiết kế
+==========================
 
 .. _fig_overview_block:
-.. figure:: https://upload.wikimedia.org/wikipedia/commons/3/3a/Tree_Example.png
+.. figure:: https://1.bp.blogspot.com/-qIReehJ0Hro/XrROQDYUmFI/AAAAAAAAaGw/LUeiaa4Ic44TfQ1ZmdLIz4-agwaCLIsMACK4BGAsYHg/w640-h627/asic_flow1.png
 
     Block diagram of the Corundum NIC. PCIe HIP: PCIe hard IP core; AXIL M: AXI lite master; DMA IF: DMA interface; AXI M: AXI master; PHC: PTP hardware clock; TXQ: transmit queue manager; TXCQ: transmit completion queue manager; RXQ: receive queue manager; RXCQ: receive completion queue manager; EQ: event queue manager; MAC + PHY: Ethernet media access controller (MAC) and physical interface layer (PHY).
 

@@ -1,14 +1,14 @@
-.. _ChuongMuc:
+.. _KyThuatSoCoBan:
 
-==========
-Chương Mục
-==========
+==================
+Kỹ Thuật Số Cơ Bản
+==================
 
 
 
 .. toctree::
     :maxdepth: 1
-    :caption: Chương Mục Con:
+    :caption: Kỹ Thuật Số Cơ Bản:
     :glob:
 
     GioiThieu

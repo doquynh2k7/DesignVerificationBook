@@ -1,31 +1,26 @@
-.. _GioiThieu:
+.. _LoiMoDau:
 
 ============
 Lời Mở Đầu
 ============
 
 
-This is a normal text paragraph. The next paragraph is a code sample::
+Ngành vi mạch (microelectronics) từ lâu đã được xem là trái tim của công nghệ hiện đại. Từ chiếc điện thoại trong túi, hệ thống điều khiển trên ô tô, cho đến những siêu máy tính phục vụ trí tuệ nhân tạo — tất cả đều vận hành nhờ những con chip được thiết kế và kiểm thử tỉ mỉ.
 
-   It is not processed in any way, except
-   that the indentation is removed.
+Tuy nhiên, đối với người mới bước vào lĩnh vực này, khối lượng kiến thức và thuật ngữ chuyên ngành có thể khiến bạn cảm thấy như đang đứng trước một “ngọn núi” quá cao để leo. Thiết kế vi mạch đòi hỏi khả năng tư duy logic, hiểu biết sâu về phần cứng và phần mềm, trong khi kiểm thử lại yêu cầu sự tỉ mỉ, kiên nhẫn và tư duy phân tích sắc bén.
 
-   It can span multiple lines.
+Quyển ebook này được xây dựng với mục tiêu làm cầu nối giữa người mới và thế giới thiết kế – kiểm thử vi mạch. Thay vì dồn dập lý thuyết hàn lâm, nội dung sẽ được sắp xếp theo trình tự dễ tiếp thu: bắt đầu từ các khái niệm nền tảng, tiếp đến là quy trình thiết kế, công cụ phổ biến, phương pháp kiểm thử, và cuối cùng là các ví dụ thực tiễn.
 
-This is a normal text paragraph again.
+Bạn sẽ tìm thấy ở đây:
 
+- Những khái niệm cơ bản được giải thích rõ ràng, kèm hình minh họa trực quan.
+- Quy trình làm việc chuẩn từ ý tưởng đến sản phẩm hoàn chỉnh.
+- Kinh nghiệm thực tế từ các dự án trong ngành.
+- Lời khuyên định hướng nghề nghiệp giúp bạn tránh những sai lầm thường gặp khi mới vào nghề.
 
-Rhodonite is a high-performance :term:`ROCE`-based :term:`RNIC` and platform for High Performance Computer (HPC).
+Dù bạn là sinh viên, kỹ sư mới ra trường hay đang chuyển ngành sang lĩnh vực vi mạch, hy vọng ebook này sẽ là người bạn đồng hành giúp bạn từng bước chinh phục hành trình đầy thách thức nhưng cũng vô cùng thú vị này.
 
-Features include a high performance datapath, 10G/100G Ethernet, PCI express gen 3, a custom, high performance, tightly-integrated :term:`PCIe` :term:`DMA` engine, many (1000+) transmit, receive, completion, and event queues, scatter/gather DMA, :term:`MSI`, multiple interfaces, multiple ports per interface, per-port transmit scheduling including high precision TDMA, flow hashing, :term:`RSS`, checksum offloading, and native IEEE 1588 :term:`PTP` timestamping.  A Linux driver is included that integrates with the Linux networking stack.  Development and debugging is facilitated by an extensive simulation framework that covers the entire system from a simulation model of the driver and PCI express interface on one side to the Ethernet interfaces on the other side.
-
-Rhodonite also provides an application section for implementing custom logic.  The application section has a dedicated PCIe BAR for control and a number of interfaces that provide access to the core datapath and DMA infrastructure.
-
-Rhodonite currently supports devices from both Xilinx and Intel, on boards from several different manufacturers.  Designs are included for the following FPGA boards; see device_list for more details:
-
-*  Xilinx Alveo U250 (Xilinx Virtex UltraScale+ XCU250)
-*  Xilinx KU5P (Xilinx Virtex UltraScale+ XCKU5P)
-
+Hãy bắt đầu và khám phá cách mà những “bộ não nhân tạo” nhỏ bé nhưng quyền năng được tạo ra và kiểm chứng — từng dòng lệnh, từng cổng logic, từng chu kỳ xung nhịp một.
 
 
 

@@ -11,5 +11,6 @@ Nội dung
     index
     DinhDang
     NhapMon
+    CongCuVaThuVien/index
     KyThuatSoCoBan/index
     VietTat

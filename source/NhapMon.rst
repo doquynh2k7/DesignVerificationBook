@@ -4,15 +4,29 @@
 Nhập Môn
 ===============
 
-Join the Corundum community
+Qui trình cho một thiết kế
+==========================
+
+.. _fig_design_flow:
+.. figure:: https://1.bp.blogspot.com/-qIReehJ0Hro/XrROQDYUmFI/AAAAAAAAaGw/LUeiaa4Ic44TfQ1ZmdLIz4-agwaCLIsMACK4BGAsYHg/w640-h627/asic_flow1.png
+
+- **Design Specification**: đặc tả thiết kế
+- **RTL Description (HDL)**: viết code mô tả thiết kế
+- **Functional Verification**: kiểm tra thiết kế
+
+
+Tham gia Cộng Đồng Vi Mạch Việt Nam
+===================================
+
+Trang fanpage: `FB page: Cộng đồng vi mạch Việt Nam <https://www.facebook.com/groups/2579482528857324>`_
+
+Trang web: `Website: https://congdongvimach.vn <https://congdongvimach.vn>`_
+
+
+Mã nguồn mẫu tham khảo
 ===========================
 
-To stay up to date with the latest developments and get support, consider joining the `mailing list <https://groups.google.com/d/forum/corundum-nic>`_ and `Zulip <https://corundum.zulipchat.com/>`_.
-
-Obtaining the source code a
-===========================
-
-The main `upstream repository for Corundum <https://github.com/corundum/corundum/>`_ is located on `GitHub <https://github.com/>`_.  There are two main ways to download the source code - downloading an archive, or cloning with git.  
+Mã nguồn cho các ví dụ trong sách `GitHub repo SachThietKeVaKiemThu <https://github.com/>`_. Bạn có thể tải về và thực nghiệm.
 
 To clone via HTTPS, run::
 

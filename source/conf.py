@@ -19,9 +19,9 @@ import sys
 
 
 # -- Project information -----------------------------------------------------
-
-project = 'DesignVerificationBook'
-author = f'{project} contributors'
+language = 'vi'   # Tiếng Việt
+project = 'Sách Thiết Kế và Kiểm Thử'
+author = f'{project} bởi CĐVMVN'
 copyright = f'2025-{datetime.datetime.now().year}, {author}'
 
 

@@ -50,6 +50,26 @@ Literal
 ``text 3a``
 :literal:`text 3b`
 
+Danh sách liệt kê
+===========================
+Nội dung gồm có:
+
+- Mục 1
+- Mục 2
+
+* Mục 3
+* Mục 4
+
+
+Danh sách số thứ tự
+===========================
+Các mục gồm có:
+
+1. Mục 1
+2. Mục 2
+3. Mục 3
+
+
 Match
 ===========================
 The input format is LaTeX math syntax without the “math delimiters“ ($ $), for example:
