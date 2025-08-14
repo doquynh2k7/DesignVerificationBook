@@ -12,4 +12,6 @@ Kỹ Thuật Số Cơ Bản
     :glob:
 
     GioiThieu
+    HeCoSo
+    CacToanTu
     *

@@ -13,4 +13,5 @@ Nội dung
     NhapMon
     CongCuVaThuVien/index
     KyThuatSoCoBan/index
+    KyThuatThietKe/index
     VietTat
