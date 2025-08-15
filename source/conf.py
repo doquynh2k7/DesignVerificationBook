@@ -20,8 +20,8 @@ import sys
 
 # -- Project information -----------------------------------------------------
 language = 'vi'   # Tiếng Việt
-project = 'Sách Thiết Kế và Kiểm Thử'
-author = f'{project} soạn bởi CĐVMVN'
+project = 'Thiết Kế và Kiểm Thử Vi Mạch'
+author = f'{project} soạn bởi Cộng Đồng Vi Mạch Việt Nam'
 copyright = f'2025-{datetime.datetime.now().year}, {author}'
 
 # -- General configuration ---------------------------------------------------
