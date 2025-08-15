@@ -24,7 +24,6 @@ project = 'Sách Thiết Kế và Kiểm Thử'
 author = f'{project} soạn bởi CĐVMVN'
 copyright = f'2025-{datetime.datetime.now().year}, {author}'
 
-
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
@@ -58,6 +57,8 @@ highlight_language = 'none'
 # html_theme = 'alabaster'
 html_theme = 'haiku'
 # html_show_sourcelink = False
+html_logo = "_static/cdvmvn_logo.png"   # đường dẫn từ thư mục source
+# html_logo = "_static/cdvmvn_logo_black.jpg"   # đường dẫn từ thư mục source
 
 try:
     import sphinx_rtd_theme
