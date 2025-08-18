@@ -1,0 +1,51 @@
+=============================================
+Chương 4: Quy trình thiết kế vi mạch số
+=============================================
+
+Thiết kế vi mạch số là một quy trình gồm nhiều bước liên tiếp, từ ý tưởng đến sản phẩm cuối cùng. Chương này giới thiệu các giai đoạn chính mà một kỹ sư junior cần nắm.
+
+1. Mô tả yêu cầu
+----------------
+- Xác định chức năng cần thiết kế (ví dụ: bộ cộng, bộ điều khiển, CPU).  
+- Viết đặc tả (specification) để làm tài liệu tham chiếu.  
+- Đầu ra: tài liệu yêu cầu thiết kế.
+
+2. Viết RTL
+-----------
+- Sử dụng Verilog hoặc VHDL để mô tả logic ở mức RTL (Register Transfer Level).  
+- Cần tuân thủ coding style để dễ kiểm thử và bảo trì.  
+- RTL thường bao gồm: datapath (luồng dữ liệu) và control path (điều khiển).
+
+3. Mô phỏng (Simulation)
+------------------------
+- Chạy testbench để kiểm tra RTL.  
+- Dùng các công cụ như ModelSim, QuestaSim, hoặc XSIM.  
+- Mục tiêu: đảm bảo thiết kế đáp ứng yêu cầu chức năng.
+
+4. Tổng hợp (Synthesis)
+-----------------------
+- Chuyển RTL thành netlist ở mức cổng logic.  
+- Công cụ: Synopsys Design Compiler, Cadence Genus, hoặc open-source Yosys.  
+- Kiểm tra xem thiết kế có thể ánh xạ lên thư viện cell chuẩn.
+
+5. Place & Route (P&R)
+----------------------
+- Bố trí (placement) và đi dây (routing) các cell logic trên silicon.  
+- Công cụ: Cadence Innovus, Synopsys ICC2.  
+- Kết quả: layout (GDSII) sẵn sàng cho chế tạo.
+
+6. Kiểm tra thời gian (Static Timing Analysis - STA)
+----------------------------------------------------
+- Đảm bảo mạch đáp ứng các ràng buộc thời gian (clock, setup, hold).  
+- Công cụ: PrimeTime, Tempus.  
+- Đây là bước quan trọng trước khi tape-out.
+
+7. Tape-out
+-----------
+- Gửi layout cuối cùng đến nhà máy chế tạo (foundry).  
+- Là giai đoạn chốt thiết kế, chi phí rất cao.  
+- Sau đó nhận lại chip thật để kiểm thử trên phần cứng.
+
+Kết luận chương 4
+-----------------
+Quy trình thiết kế vi mạch số bao gồm nhiều bước từ ý tưởng đến sản phẩm. Junior cần nắm rõ từng giai đoạn để biết vị trí của mình trong team và hiểu bức tranh toàn cảnh.

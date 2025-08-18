@@ -1,0 +1,48 @@
+================================================================================
+Chương 7: Lộ trình phát triển kỹ năng cho kỹ sư vi mạch
+================================================================================
+
+Ngành vi mạch yêu cầu sự kiên nhẫn và học tập liên tục.  
+Đối với kỹ sư ở mức junior, việc có một lộ trình phát triển rõ ràng sẽ giúp đi đúng hướng.  
+
+1. Kiến thức nền tảng (0 – 1 năm)
+---------------------------------
+- Nắm vững **logic số** và **cấu trúc vi mạch**.  
+- Thành thạo **Verilog/VHDL** ở mức cơ bản.  
+- Thực hành mô phỏng bằng **QuestaSim, Vivado, ModelSim**.  
+- Học cách viết testbench đơn giản, debug waveform.  
+
+2. Giai đoạn kỹ sư thiết kế/kiểm thử junior (1 – 3 năm)
+--------------------------------------------------------
+- Hiểu **flow thiết kế ASIC/FPGA** từ RTL đến gate-level.  
+- Làm quen với **synthesis** (Design Compiler, Vivado).  
+- Tham gia viết **testbench nâng cao** với SystemVerilog.  
+- Bắt đầu học **UVM** và các khái niệm coverage.  
+- Nâng cao kỹ năng dùng **Git, Makefile, scripting**.  
+
+3. Giai đoạn mid-level (3 – 5 năm)
+----------------------------------
+- Có thể **lead một block RTL** trong dự án.  
+- Viết và duy trì **testbench UVM** hoàn chỉnh.  
+- Thực hành **linting, formal verification**.  
+- Làm quen với **timing analysis** (PrimeTime).  
+- Tập trung vào hiệu năng: **low power, high speed design**.  
+
+4. Giai đoạn senior (5 năm trở lên)
+-----------------------------------
+- Có thể **architect** một module lớn hoặc cả hệ thống.  
+- Chịu trách nhiệm **review code, kiểm thử** cho junior.  
+- Kinh nghiệm đa dạng về **ASIC/FPGA flow**.  
+- Thành thạo các tool EDA chuyên sâu (ICC2, Innovus, JasperGold).  
+- Đóng góp vào **methodology** của nhóm.  
+
+5. Kỹ năng bổ sung
+------------------
+- **Kỹ năng mềm**: giao tiếp, làm việc nhóm, quản lý thời gian.  
+- **Tiếng Anh kỹ thuật**: đọc tài liệu, trao đổi với đồng nghiệp quốc tế.  
+- **Khả năng học tập độc lập**: cập nhật công nghệ mới liên tục.  
+
+Kết luận chương 7
+-----------------
+Một kỹ sư vi mạch giỏi không chỉ giỏi kỹ thuật mà còn cần biết học hỏi, hợp tác và định hướng phát triển lâu dài.  
+Junior nên tập trung xây nền tảng thật chắc, vì đây là bước đệm quan trọng để tiến xa trong ngành.

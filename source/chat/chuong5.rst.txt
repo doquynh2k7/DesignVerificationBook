@@ -1,0 +1,45 @@
+=============================================
+Chương 5: Các phương pháp kiểm thử cơ bản
+=============================================
+
+Kiểm thử (verification) là bước quan trọng để đảm bảo thiết kế hoạt động đúng theo yêu cầu. Đối với một kỹ sư junior, việc nắm vững các phương pháp cơ bản là nền tảng để tham gia vào các dự án thực tế.
+
+1. Testbench
+------------
+- Testbench là môi trường mô phỏng để kiểm thử RTL.  
+- Thành phần chính:
+  - **Stimulus**: tạo dữ liệu đầu vào cho thiết kế.  
+  - **Design Under Test (DUT)**: module cần kiểm thử.  
+  - **Monitor**: quan sát tín hiệu đầu ra.  
+  - **Checker/Scoreboard**: so sánh kết quả với mong đợi.  
+
+2. Testcase
+-----------
+- Là tập hợp các tình huống kiểm thử cụ thể.  
+- Ví dụ: kiểm tra bộ cộng với các giá trị 0 + 0, 1 + 1, số lớn, tràn (overflow).  
+- Testcase phải bao quát cả trường hợp bình thường và biên.  
+
+3. Coverage
+-----------
+- Đo lường mức độ bao phủ của kiểm thử.  
+- Các loại coverage cơ bản:
+  - **Code coverage**: đã chạy hết các nhánh trong code chưa?  
+  - **Functional coverage**: đã kiểm thử hết các chức năng yêu cầu chưa?  
+
+4. Debug
+--------
+- Khi mô phỏng thất bại, cần phân tích waveform để tìm lỗi.  
+- Các bước debug cơ bản:
+  - Kiểm tra tín hiệu clock và reset.  
+  - Xem tín hiệu vào/ra có đúng mong đợi không.  
+  - Dùng `$display` hoặc assert trong Verilog để in thông tin.  
+
+5. Regression test
+------------------
+- Tập hợp nhiều testcase chạy tự động.  
+- Đảm bảo khi chỉnh sửa RTL, chức năng cũ không bị hỏng.  
+- Công cụ hỗ trợ: script (Makefile, Python) để tự động hóa.  
+
+Kết luận chương 5
+-----------------
+Junior cần làm quen với việc viết testbench, testcase và biết sử dụng coverage để đánh giá chất lượng kiểm thử. Đây là nền tảng trước khi tiếp cận các phương pháp nâng cao như UVM hoặc formal verification.
