@@ -24,6 +24,17 @@ Hãy bắt đầu và khám phá cách mà những “bộ não nhân tạo” n
 
 
 
+Lộ Trình Học Tập
+==================
+
+- Chương 1: Giới thiệu tổng quan
+- Chương 2: Quy trình thiết kế vi mạch số
+- Chương 3: Ngôn ngữ mô tả phần cứng (HDL)
+- Chương 4: Quy trình thiết kế vi mạch số
+- Chương 5: Các phương pháp kiểm thử cơ bản
+- Chương 6: Công cụ EDA thường dùng trong thiết kế và kiểm thử
+- Chương 7: Lộ trình phát triển kỹ năng cho kỹ sư vi mạch
+
 .. only:: html
 
     Chỉ Mục và Bảng
