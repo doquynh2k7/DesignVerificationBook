@@ -61,6 +61,6 @@ Khái niệm RTL (Register Transfer Level)
 - RTL là mức trừu tượng chính để viết code thiết kế.
 - Cả Verilog và VHDL đều được dùng để viết RTL.
 
-Kết luận chương 3
+Kết luận chương
 -----------------
 HDL là nền tảng bắt buộc với kỹ sư vi mạch. Junior cần nắm chắc cú pháp cơ bản, hiểu sự khác biệt giữa Verilog và VHDL, và biết cách viết mô tả RTL đơn giản.

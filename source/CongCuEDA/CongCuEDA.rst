@@ -41,7 +41,7 @@ Quản lý dự án và code
 - **Makefile/Python scripts**: tự động hóa mô phỏng và regression.  
 - **Jenkins**: chạy kiểm thử liên tục (CI/CD).  
 
-Kết luận chương 6
+Kết luận chương
 -----------------
 Junior nên bắt đầu bằng cách làm quen với simulator (QuestaSim, Vivado) và công cụ quản lý code (Git).  
 Việc nắm các công cụ cơ bản này sẽ giúp dễ dàng hòa nhập vào dự án thực tế, trước khi học các công cụ nâng cao cho ASIC.

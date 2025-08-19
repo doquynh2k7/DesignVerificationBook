@@ -28,6 +28,6 @@ Tại sao người mới cần học cả design và verification?
 - Tùy định hướng nghề nghiệp có thể đi sâu vào thiết kế hoặc kiểm thử.
 - Khi hiểu cả hai, dễ phối hợp trong nhóm và giảm sai sót.
 
-Kết luận chương 1
+Kết luận chương
 -----------------
 Chương này cung cấp bức tranh toàn cảnh về vi mạch, thiết kế và kiểm thử. Các chương tiếp theo sẽ đi sâu vào chi tiết từng giai đoạn, giúp người mới xây dựng kỹ năng thực tế.

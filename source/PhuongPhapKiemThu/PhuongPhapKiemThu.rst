@@ -40,6 +40,6 @@ Regression test
 - Đảm bảo khi chỉnh sửa RTL, chức năng cũ không bị hỏng.  
 - Công cụ hỗ trợ: script (Makefile, Python) để tự động hóa.  
 
-Kết luận chương 5
+Kết luận chương
 -----------------
 Junior cần làm quen với việc viết testbench, testcase và biết sử dụng coverage để đánh giá chất lượng kiểm thử. Đây là nền tảng trước khi tiếp cận các phương pháp nâng cao như UVM hoặc formal verification.

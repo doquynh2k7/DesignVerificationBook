@@ -42,7 +42,7 @@ Kỹ năng bổ sung
 - **Tiếng Anh kỹ thuật**: đọc tài liệu, trao đổi với đồng nghiệp quốc tế.  
 - **Khả năng học tập độc lập**: cập nhật công nghệ mới liên tục.  
 
-Kết luận chương 7
+Kết luận chương
 -----------------
 Một kỹ sư vi mạch giỏi không chỉ giỏi kỹ thuật mà còn cần biết học hỏi, hợp tác và định hướng phát triển lâu dài.  
 Junior nên tập trung xây nền tảng thật chắc, vì đây là bước đệm quan trọng để tiến xa trong ngành.

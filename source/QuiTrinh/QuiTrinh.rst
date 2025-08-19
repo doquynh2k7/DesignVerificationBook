@@ -40,6 +40,6 @@ Chế tạo và kiểm thử (Fabrication & Testing)
 - Kiểm thử chip thật (post-silicon validation).
 - Nếu đạt yêu cầu thì đưa vào sản xuất hàng loạt.
 
-Kết luận chương 2
+Kết luận chương
 -----------------
 Quy trình thiết kế vi mạch số gồm nhiều bước, từ đặc tả đến chế tạo. Người mới cần hiểu rõ từng bước để biết mình sẽ tham gia ở giai đoạn nào (design, verification hay physical design). Những chương tiếp theo sẽ đi sâu vào chi tiết RTL, testbench và phương pháp kiểm thử.
