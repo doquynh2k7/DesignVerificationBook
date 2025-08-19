@@ -20,13 +20,3 @@ Nội dung
     PhuongPhapKiemThu/*
     CongCuEDA/*
     LoTrinhPhatTrien/*
-
-
-.. toctree::
-    :numbered:
-    :includehidden:
-    
-    NhapMon
-    CongCuVaThuVien/index
-    KyThuatSoCoBan/index
-    KyThuatThietKe/index
