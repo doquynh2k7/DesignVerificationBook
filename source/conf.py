@@ -32,6 +32,7 @@ copyright = f'2025-{datetime.datetime.now().year}, {author}'
 extensions = [
     "sphinxcontrib.rsvgconverter",
     "sphinxcontrib.wavedrom",
+    "sphinx_rtd_dark_mode",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -61,8 +62,8 @@ html_logo = "_static/cdvmvn_logo.png"   # đường dẫn từ thư mục source
 # html_logo = "_static/cdvmvn_logo_black.jpg"   # đường dẫn từ thư mục source
 
 try:
-    import sphinx_rtd_theme
-    html_theme = 'sphinx_rtd_theme'
+    import sphinx_rtd_dark_mode
+    html_theme = 'sphinx_rtd_dark_mode'
 except ImportError:
     sys.stderr.write('Warning: The Sphinx \'sphinx_rtd_theme\' HTML theme was '+
         'not found. Make sure you have the theme installed to produce pretty '+
@@ -82,3 +83,6 @@ graphviz_output_format = 'svg'
 
 latex_show_pagerefs = True
 latex_show_urls = 'footnote'
+
+# user starts in dark mode
+default_dark_mode = True

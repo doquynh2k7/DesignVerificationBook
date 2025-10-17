@@ -282,3 +282,11 @@ Waveform
 
 
 ``.. wavedrom-json:: path/to/your_wave.json``
+
+DrawIO
+===========================
+
+**DrawIO ví dụ**
+
+.. raw:: html
+   :file: ./DinhDang/example.drawio.html
